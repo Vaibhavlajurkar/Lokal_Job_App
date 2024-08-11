@@ -1,3 +1,11 @@
+## Download
+
+You can download the APK and view the demo video from the links below:
+
+- **APK**: [LokalJobApp.apk](releases/app-debug.apk)
+- **Demo Video**: [Watch Demo Video](https://www.loom.com/share/1d6f48e64f8d4e128dd25cdf7c022c66?sid=8c6efdf6-cbb0-407d-8fa2-6e04744f7113)
+
+
 # LokalJobApp
 
 ## Overview
