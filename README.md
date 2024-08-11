@@ -55,3 +55,70 @@ LokalJobApp is an Android application designed to help users find and bookmark j
    
 4. **Offline Access**: 
    - Access your bookmarked jobs offline from the "Bookmarks" section, even when you don't have an internet connection.
+
+
+## Project Structure
+
+```plaintext
+LokalJobApp/
+├── app/
+│   ├── sampledata/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/lokaljobapp/
+│   │   │   │   ├── Bookmark/
+│   │   │   │   ├── DatabaseHelper/
+│   │   │   │   ├── Job/
+│   │   │   │   ├── JobAdapter.kt
+│   │   │   │   ├── JobDetailActivity/
+│   │   │   │   ├── MainActivity/
+│   │   │   │   ├── MyApp/
+│   │   │   ├── res/
+│   │   │   │   ├── drawable/
+│   │   │   │   │   ├── background.xml
+│   │   │   │   │   ├── bookmark.xml
+│   │   │   │   │   ├── bookmark_blackcolour.xml
+│   │   │   │   │   ├── bookmark_selector.xml
+│   │   │   │   │   ├── bookmarks_simple_duotone_svgrepo_com.xml
+│   │   │   │   │   ├── cloud_jobs_api_svgrepo_com.xml
+│   │   │   │   │   ├── ic_launcher_background.xml
+│   │   │   │   │   ├── ic_launcher_foreground.xml
+│   │   │   │   ├── layout/
+│   │   │   │   │   ├── activity_job_detail.xml
+│   │   │   │   │   ├── activity_main.xml
+│   │   │   │   │   ├── fragment_bookmark.xml
+│   │   │   │   │   ├── fragment_job.xml
+│   │   │   │   │   ├── item_job.xml
+│   │   │   │   ├── menu/
+│   │   │   │   │   ├── bottom_nav.xml
+│   │   │   │   ├── mipmap-hdpi/
+│   │   │   │   ├── mipmap-mdpi/
+│   │   │   │   ├── mipmap-xhdpi/
+│   │   │   │   ├── mipmap-anydpi/
+│   │   │   │   ├── mipmap-xxhdpi/
+│   │   │   │   ├── mipmap-xxxhdpi/
+│   │   │   │   │   ├── ic_launcher.xml
+│   │   │   │   │   ├── ic_launcher.webp
+│   │   │   │   │   ├── ic_launcher_round.webp
+│   │   │   │   │   ├── ic_launcher_round.xml
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   ├── styles.xml
+│   │   │   │   │   ├── themes.xml
+│   │   │   │   │   ├── values-night/
+│   │   │   │   ├── xml/
+│   │   │   │   │   ├── backup_rules.xml
+│   │   │   │   │   ├── data_extraction_rules.xml
+│   │   │   ├── AndroidManifest.xml
+│   ├── test/
+│   │   ├── java/com/example/lokaljobapp/
+│   │   │   ├── ExampleInstrumentedTest/
+│   │   │   ├── ExampleUnitTest/
+├── build.gradle.kts
+├── proguard-rules.pro
+├── gradle.properties
+├── gradle-wrapper.properties
+├── libs.versions.toml
+├── local.properties
+└── settings.gradle.kts
