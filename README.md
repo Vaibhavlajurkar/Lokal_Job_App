@@ -40,9 +40,18 @@ LokalJobApp is an Android application designed to help users find and bookmark j
 3.Build the project to download dependencies.
 4.Run the app on an Android device or emulator.
 
-Usage
+## Usage
 
--**Jobs Screen**: Upon opening the app, navigate to the "Jobs" section to explore available job listings. Scroll down to load more jobs.
--**Job Details**: Click on a job card to view more detailed information.
--**Bookmarking** Jobs: Tap the bookmark icon on a job card to save it. The job will appear in the "Bookmarks" section.
--**Offline Access**: Access bookmarked jobs offline from the "Bookmarks" section.
+1. **Jobs Screen**: 
+   - Upon opening the app, navigate to the "Jobs" section to explore available job listings.
+   - Scroll down to load more jobs as they are fetched from the API.
+   
+2. **Job Details**: 
+   - Click on a job card to view more detailed information about the job, such as title, location, salary, and phone details.
+   
+3. **Bookmarking Jobs**: 
+   - Tap the bookmark icon on a job card to save it for later.
+   - The bookmarked job will appear in the "Bookmarks" section for easy access.
+   
+4. **Offline Access**: 
+   - Access your bookmarked jobs offline from the "Bookmarks" section, even when you don't have an internet connection.
