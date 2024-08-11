@@ -40,7 +40,7 @@ LokalJobApp is an Android application designed to help users find and bookmark j
 3.Build the project to download dependencies.
 4.Run the app on an Android device or emulator.
 
-##Usage
+Usage
 
 -**Jobs Screen**: Upon opening the app, navigate to the "Jobs" section to explore available job listings. Scroll down to load more jobs.
 -**Job Details**: Click on a job card to view more detailed information.
