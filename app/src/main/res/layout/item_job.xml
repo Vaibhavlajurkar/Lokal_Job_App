@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/iteminjob">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/jobbackground"
+        android:layout_width="match_parent"
+        android:paddingTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/jobTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Title:-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Location:-"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/jobTitle" />
+
+        <TextView
+            android:id="@+id/Salary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Salary:-"
+            android:textSize="18sp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Location" />
+
+        <TextView
+            android:id="@+id/LastDate"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:text="Phone:-"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Salary" />
+
+        <ImageButton
+            android:id="@+id/bookmarkButton"
+            android:layout_width="73dp"
+            android:layout_height="59dp"
+            android:layout_below="@id/jobbackground"
+            android:layout_centerHorizontal="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="bottom"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/bookmark_selector"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/jobTitle"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

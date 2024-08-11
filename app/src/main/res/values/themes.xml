@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with Action Bar. -->
+<!--    <style name="Base.Theme.LokalJobApp" parent="Theme.Material3.DayNight">-->
+<!--        &lt;!&ndash; Customize your base theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>-->
+<!--        <item name="colorOnPrimary">@color/white</item>-->
+<!--        <item name="colorSurface">@color/colorSurface</item>-->
+<!--        <item name="colorOnSurface">@color/colorOnSurface</item>-->
+<!--        &lt;!&ndash; Add other theme customizations here &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Application theme extending from Base Theme &ndash;&gt;-->
+<!--    <style name="Theme.LokalJobApp" parent="Base.Theme.LokalJobApp">-->
+<!--        &lt;!&ndash; Customize specific theme variations here, if needed &ndash;&gt;-->
+<!--        &lt;!&ndash; Example: Different colors or other customizations for different configurations &ndash;&gt;-->
+<!--        &lt;!&ndash; Optionally customize Action Bar properties here &ndash;&gt;-->
+<!--    </style>-->
+</resources>

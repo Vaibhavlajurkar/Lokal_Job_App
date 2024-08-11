@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for dark mode. -->
+    <style name="Base.Theme.LokalJobApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary branding color for dark mode. -->
+<!--        <item name="colorPrimary">@color/my_dark_primary</item>-->
+<!--        <item name="colorPrimaryVariant">@color/my_dark_primary_variant</item>-->
+<!--        <item name="colorOnPrimary">@color/my_dark_on_primary</item>-->
+
+<!--        &lt;!&ndash; Secondary branding color for dark mode. &ndash;&gt;-->
+<!--        <item name="colorSecondary">@color/my_dark_secondary</item>-->
+<!--        <item name="colorSecondaryVariant">@color/my_dark_secondary_variant</item>-->
+<!--        <item name="colorOnSecondary">@color/my_dark_on_secondary</item>-->
+
+<!--        &lt;!&ndash; Surface color for cards, sheets, etc. &ndash;&gt;-->
+<!--        <item name="colorSurface">@color/my_dark_surface</item>-->
+<!--        <item name="colorOnSurface">@color/my_dark_on_surface</item>-->
+
+<!--        &lt;!&ndash; Background color for dark mode. &ndash;&gt;-->
+<!--        <item name="colorBackground">@color/my_dark_background</item>-->
+<!--        <item name="colorOnBackground">@color/my_dark_on_background</item>-->
+
+<!--        &lt;!&ndash; Error color for dark mode. &ndash;&gt;-->
+<!--        <item name="colorError">@color/my_dark_error</item>-->
+<!--        <item name="colorOnError">@color/my_dark_on_error</item>-->
+
+<!--        &lt;!&ndash; Status bar and navigation bar customization (optional) &ndash;&gt;-->
+<!--        <item name="android:statusBarColor">@color/my_dark_primary</item>-->
+<!--        <item name="android:navigationBarColor">@color/my_dark_primary</item>-->
+
+<!--        &lt;!&ndash; Typography customization for dark mode &ndash;&gt;-->
+<!--        <item name="android:textColorPrimary">@color/my_dark_text_primary</item>-->
+<!--        <item name="android:textColorSecondary">@color/my_dark_text_secondary</item>-->
+<!--        <item name="android:fontFamily">@font/your_font_family</item>-->
+<!--        <item name="android:textAppearance">@style/TextAppearance.Material3.Body1</item>-->
+
+<!--        &lt;!&ndash; Elevation and corner radius customization &ndash;&gt;-->
+<!--        <item name="android:elevation">4dp</item>-->
+<!--        <item name="android:cornerRadius">8dp</item>-->
+
+<!--        &lt;!&ndash; Other customizations for dark mode &ndash;&gt;-->
+<!--        <item name="android:buttonStyle">@style/Widget.Material3.Button</item>-->
+<!--        <item name="android:editTextStyle">@style/Widget.Material3.TextInputLayout.OutlinedBox</item>-->
+    </style>
+</resources>
